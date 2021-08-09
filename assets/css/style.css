@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #444444;
-  background-color: #35322d;
+  background-color: #000;
 }
 
 a {
@@ -519,7 +519,7 @@ section {
 }
 
 .section-bg {
-  background-color: #35322d;
+  background-color: #000;
 }
 
 .section-title {
@@ -846,13 +846,13 @@ section {
   color: #fff;
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background-color: #35322d;
+  background-color: #000;
   border: 2px solid #fdd700;
   border-radius: 50px;
 }
 
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #35322d;
+  color: #000;
   background: #fdd700;
 }
 
@@ -883,7 +883,7 @@ section {
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: #35322d;
+  background: #000;
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -891,7 +891,7 @@ section {
 }
 
 .menu .menu-content span {
-  background: #35322d;
+  background: #000;
   color : #fff;
   position: relative;
   z-index: 3;
@@ -933,7 +933,7 @@ section {
 }
 
 .specials .nav-link.active {
-  color: #35322d;
+  color: #000;
   border-color: #fdd700;
   background-color: #fdd700
 }
@@ -1393,7 +1393,7 @@ section {
 }
 
 .contact .info {
-  background: #35322d;
+  background: #000;
 }
 
 .contact .info i {
