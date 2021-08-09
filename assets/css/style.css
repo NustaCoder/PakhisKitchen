@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 10px 0;
-  background: rgba(26, 25, 22, 0.85);
+  background: rgba(0, 0, 0, 1);
 }
 
 #header.header-transparent {
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(26, 25, 22, 0.85);
+  background: rgba(0, 0, 0, 1);
 }
 
 #header .logo h1 {
@@ -121,7 +121,6 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -161,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
+  background-color: #000;
 }
 
 .navbar ul {
@@ -168,6 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   display: flex;
   list-style: none;
+  background-color: #000;
   align-items: center;
 }
 
@@ -195,6 +196,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #fdd700;
+  background-color: #000;
+
 }
 
 .navbar .dropdown ul {
@@ -208,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -288,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(39, 37, 34, 0.9);
+  background: #000;
   transition: 0.3s;
   z-index: 0;
 }
@@ -336,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -959,6 +962,14 @@ section {
 }
 
 @media (max-width: 992px) {
+  .specials .details h3 {
+    padding-top: 25px;
+    text-align: center;
+  }
+  
+  .specials .details p {
+    text-align: center;
+  }
   .specials .nav-link {
     border: 0;
     padding: 15px;
@@ -1537,8 +1548,7 @@ section {
 }
 
 #footer h3 {
-  font-family: 'Samarkan', sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 700;
   color: #fdd700;
   position: relative;
@@ -1553,7 +1563,9 @@ section {
   padding: 0;
   margin: 0 0 40px 0;
 }
-
+#footer p span{
+ color: #fdd700;
+}
 #footer .social-links {
   margin: 0 0 40px 0;
 }
