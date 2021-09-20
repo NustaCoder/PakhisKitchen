@@ -73,6 +73,8 @@
               <li data-filter=".filter-bhel">Bhel</li>
               <li data-filter=".filter-rice">Rice</li>
               <li data-filter=".filter-specialty">Special Thali</li>
+              <li data-filter=".filter-combos">Special Combos</li>
+              <li data-filter=".filter-meal">Special Meals</li>
               <li data-filter=".filter-dessert">Dessert</li>
               <li data-filter=".filter-beverages">Beverages</li>
             </ul>
@@ -254,6 +256,54 @@
             <div class="menu-ingredients">4 Soups, 5 Starters, 1 Gravy, 4 Accompnies, 2 Noodles, 2 Rice, 1 Dessert
             </div>
           </div>
+
+          <div class="col-lg-6 menu-item filter-combos">
+            <div class="menu-content">
+              <a href="#menu">Manchurian Combo</a><span>120₹</span>
+            </div>
+            <div class="menu-ingredients">Manchurian Dry/Gravy + Manchurian Noodles/Rice + Bombey Bhel
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-combos">
+            <div class="menu-content">
+              <a href="#menu">Paneer Chilly Combo</a><span>120₹</span>
+            </div>
+            <div class="menu-ingredients">Paneer Chilly Dry/Gravy + Burnt Garlic Noodles/Rice + Bombey Bhel
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-combos">
+            <div class="menu-content">
+              <a href="#menu">Honey Chilly Potato Combo</a><span>120₹</span>
+            </div>
+            <div class="menu-ingredients">Honey Chilly Potato + Chilly Garlic Noodles/Rice + Bombey Bhel
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-combos">
+            <div class="menu-content">
+              <a href="#menu">Veg Crispy Combo</a><span>120₹</span>
+            </div>
+            <div class="menu-ingredients">Veg Crsipy + Schezwan Noodles/Rice + Bombey Bhel
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-meal">
+            <div class="menu-content">
+              <a href="#menu">Small Meal</a><span>150₹</span>
+            </div>
+            <div class="menu-ingredients">Starter + Noodles/Rice + Dessert + Bhel
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-meal">
+            <div class="menu-content">
+              <a href="#menu">Large Meal</a><span>180₹</span>
+            </div>
+            <div class="menu-ingredients">Soup + Starter + Noodles/Rice + Dessert
+            </div>
+          </div>
+
           <div class="col-lg-6 menu-item filter-beverages">
             <div class="menu-content">
               <a href="#menu">Water Bottle</a><span>10₹</span>
@@ -336,64 +386,28 @@
     </section>
     <!--End Specials Section -->
 
-    <!-- ======= Book A Table Section ======= --
-    <section id="book-a-table" class="book-a-table">
+    <!-- ======= Book A Table Section ======= -->
+    <section id="special-offers" class="special-offers">
       <div class="container">
 
         <div class="section-title">
-          <h2>Book a <span>Table</span></h2>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-            autem.</p>
+          <h2 style="padding-top: 120px">Special Offers <span>Everyday</span></h2>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
-                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="number" class="form-control" name="people" id="people" placeholder="#menu of people"
-                data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-              <div class="validate"></div>
-            </div>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="offer-items">
+              <li><span>Monday</span><br>Get 15% off on Bill of 350₹ and Above</li>
+              <li><span>Tuesday</span><br>Get 15% off on Any Thali</li>
+              <li><span>Wednesday</span><br>BOGO offer on Noodles and Rice</li>
+              <li><span>Thursday</span><br>Get 15% off on Any Thali</li>
+              <li><span>Friday</span><br>BOGO offer on Noodles and Rice</li>
+              <li><span>Saturday</span><br>Get 15% off on Bill of 350₹ and Above</li>
+              <li><span>Sunday</span><br>Get Free Dessert on Minimum Billing of 350₹</li>
+            </ul>
           </div>
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-            <div class="validate"></div>
-          </div>
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your
-              reservation. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit">Send Message</button></div>
-        </form>
-
-      </div>
-    </section>!-- End Book A Table Section -->
+        </div>
+    </section><!-- End Book A Table Section -->
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
